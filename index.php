@@ -20,8 +20,10 @@
     });</script>
 
 <header>
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        <H2>Öğrenci Portal</H2>
+    <div class="container">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <H2>Öğrenci Portal</H2>
+        </div>
     </div>
 </header>
 <main>
@@ -29,8 +31,8 @@
         <div class="row">
 
             <?
-                require_once "baglan.php";
-                global $baglan;
+            require_once "baglan.php";
+            global $baglan;
             ?>
 
             <? if(isset($_SESSION['Kemail']) && !empty($_SESSION['Kemail'])){ ?>
@@ -43,7 +45,7 @@
             <? } else { ?>
 
                 <div class="col-md-6 login-form-1 mt-5">
-                    <div class="card-header bg-success">
+                    <div class="card-header bg-info">
                         <h3>Öğrenci Giriş</h3>
                     </div>
                     <div class="card-body">
@@ -107,8 +109,8 @@
 
 
             <? } ?>
-            <div class="col mt-5 ml-5">
-                <a href="https://www.osym.gov.tr" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%C3%96SYM.svg/1280px-%C3%96SYM.svg.png" alt="ösym" width="500" height="300"></a>
+            <div class="col mt-5">
+                <img src="https://www.pngall.com/wp-content/uploads/5/University-PNG.png" alt="ösym" width="300" height="300">
             </div>
         </div>
     </div>
@@ -206,8 +208,10 @@
 
 </main>
 <footer>
-    <div class="text-center p-3 mt-5" style="background-color: rgba(0, 0, 0, 0.2);">
-        <p>© 2022 Copyright: Emircan Halıcı</p>
+    <div class="container">
+        <div class="text-center p-3 mt-5" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p>© 2022 Copyright: Emircan Halıcı</p>
+        </div>
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
