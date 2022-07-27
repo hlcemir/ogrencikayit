@@ -1,5 +1,3 @@
-// asdashduqhwoıdu
-//asdadasd
 <!doctype html>
 <html lang="en">
 <head>
